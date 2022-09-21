@@ -1,0 +1,65 @@
+#hello world
+print("hello world")
+
+#hello world with tab
+print("Hello world \t hello world")
+
+#Hello World with new line
+print("hello world\nhello world ")
+
+#Integer Input
+a=int(input())
+print(a)
+
+#Float Input
+a=float(input())
+print('%.2f'%a)
+
+#Character Input
+a=input()
+print(a)
+
+#String Input
+a=str(input())
+print(a)
+
+#Ascii-I
+a=input()
+print(ord(a))
+
+#Ascii-II
+a=int(input())
+print(chr(a))
+
+#Sum and Difference
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+#Product and Division
+a=int(input())
+b=int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+
+#Swapping of two numbers
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+#Swapping without third variable
+a=int(input())
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
+
+#
